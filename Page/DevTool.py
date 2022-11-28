@@ -9,7 +9,6 @@ class DevTool:
         self.actions = ActionChains(driver=driver)
 
     def check_dev_tool(self,query):
-        self.driver.finde_element('class', devtool_class).click()
         self.driver.find_element("id", text_area_id).click()
         self.actions.key_down(Keys.CONTROL).send_keys('a').send_keys(Keys.DELETE).perform()
         self.driver.find_element('id', text_area_id).send_keys(query)

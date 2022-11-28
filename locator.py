@@ -1,6 +1,6 @@
 username_textbox_id = "i58e60a21-68df-11ed-9abe-a76b2a60cdc3"
 password_textbox_id = "i58e85411-68df-11ed-9abe-a76b2a60cdc3"
-login_button_class = "euiButton__content"
+login_button_class = "euiButton__fill"
 button_class="css-1h0bwsh-euiIcon-m-isLoaded"
 devtool_class="euiListGroupItem__button"
 text_area_id="ConAppInputTextarea"
